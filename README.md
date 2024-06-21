@@ -37,6 +37,12 @@ Some sample images from the dataset are shown :
 pip install -r requirements.txt
 ```
 
+2. **Run the Application:**
+Execute the following command to run the app:
+```python
+streamlit run app.py
+```
+
 ## Contributors
 - [shubhranshu7](https://github.com/shubhranshu7)
 - [Parth-Agarwal216](https://github.com/Parth-Agarwal216)
