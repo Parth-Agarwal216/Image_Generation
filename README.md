@@ -1,6 +1,6 @@
 # Unconditional Image Generation
 
-Unconditional image generation using a diffusion model inspired by Stable Diffusion's architecture built on PyTorch framework
+This project involved developing and training a diffusion model from scratch inspired by the architecture of Stable Diffusion. The model was trained using PyTorch framework.
 
 ## Dataset 
 
@@ -8,6 +8,6 @@ The dataset used is the MNIST (digits) dataset. It consists of 70,000 labeled gr
 
 ## Architecture
 
-A modified U-Net architecture utilizing attention mechanism is used.
+A modified U-Net architecture which comprises of multi-headed self attention, residual connections and time embeddings.
 
 ![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
