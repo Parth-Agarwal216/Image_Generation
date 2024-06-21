@@ -12,13 +12,6 @@ This diffusion model uses a modified U-NET architecture which incorporates resid
 
 ![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
 
-## The diffusion process
-
-
-<div align="center">
-  <img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/abbac076-63bc-4bfc-a2df-a296370ccdfe" alt="image" width="500" />
-</div>
-
 ## Dataset 
 
 The dataset used is the MNIST (digits) dataset. It consists of 70,000 labeled grayscale images of hand-written digits, each 28x28 pixels in size.
@@ -28,6 +21,11 @@ Some sample images from the dataset are shown :
   <img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/fa0c91de-ba5e-40bf-8ed9-b0e47fe12aca" alt="image" width="300" />
 </div>
 
+## The diffusion process
+
+<div align="center">
+  <img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/abbac076-63bc-4bfc-a2df-a296370ccdfe" alt="image" width="500" />
+</div>
 
 ### Installation and Setup
 
