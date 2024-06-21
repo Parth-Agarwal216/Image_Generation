@@ -1,6 +1,6 @@
 # Unconditional Image Generation
 
-This project involved developing and training a diffusion model from scratch inspired by the architecture of Stable Diffusion. The model was trained using PyTorch framework.
+This project involved developing and training a diffusion model from scratch inspired by the architecture of Stable Diffusion. The model was trained using PyTorch framework. A diffusion probabilistic model is a parameterized Markov chain trained using variational inference to produce samples matching the data after finite time. Transitions of this chain are learned to reverse a diffusion process, which is a Markov chain that gradually adds noise to the data in the opposite direction of sampling until signal is destroyed. 
 
 ## Dataset 
 
