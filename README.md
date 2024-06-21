@@ -7,8 +7,7 @@ This project involved developing and training a diffusion model from scratch ins
 The dataset used is the MNIST (digits) dataset. It consists of 70,000 labeled grayscale images of hand-written digits, each 28x28 pixels in size.
 Some sample images from the dataset are shown : 
 
-![image](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/fa0c91de-ba5e-40bf-8ed9-b0e47fe12aca)
-<img src = "https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/fa0c91de-ba5e-40bf-8ed9-b0e47fe12aca", width = "100", height = "100">
+<img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/fa0c91de-ba5e-40bf-8ed9-b0e47fe12aca" alt="image" width="300" />
 
 ## Architecture
 
