@@ -43,6 +43,9 @@ Execute the following command to run the app:
 streamlit run app.py
 ```
 
+## Try it out !
+The model has been deployed at [Image_Generation](https://huggingface.co/spaces/Hehehehelol/Unconditional_Image_Generation)
+
 ## Contributors
 - [shubhranshu7](https://github.com/shubhranshu7)
 - [Parth-Agarwal216](https://github.com/Parth-Agarwal216)
