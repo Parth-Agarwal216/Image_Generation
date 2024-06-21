@@ -6,6 +6,12 @@ This project involved developing and training a diffusion model from scratch ins
 
 A diffusion probabilistic model is a parameterized Markov chain trained using variational inference to produce samples matching the data after finite time. Transitions of this chain are learned to reverse a diffusion process, which is a Markov chain that gradually adds noise to the data in the opposite direction of sampling until signal is destroyed. 
 
+## Architecture
+
+This diffusion model uses a modified U-NET architecture which incorporates residual connections and multi headed self attention between the convolutional layers. Additionally, sinusoidal position embeddings are used to encode timestep t. This makes the neural network “know” at which specific time step (noise level) it is operating, for each image in a batch.
+
+![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
+
 ## Dataset 
 
 The dataset used is the MNIST (digits) dataset. It consists of 70,000 labeled grayscale images of hand-written digits, each 28x28 pixels in size.
@@ -14,12 +20,6 @@ Some sample images from the dataset are shown :
 <div align="center">
   <img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/fa0c91de-ba5e-40bf-8ed9-b0e47fe12aca" alt="image" width="300" />
 </div>
-
-## Architecture
-
-A modified U-Net architecture which comprises of multi-headed self attention, residual connections and time embeddings.
-
-![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
 
 ### Installation and Setup
 
