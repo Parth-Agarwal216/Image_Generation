@@ -11,3 +11,8 @@ The dataset used is the MNIST (digits) dataset. It consists of 70,000 labeled gr
 A modified U-Net architecture which comprises of multi-headed self attention, residual connections and time embeddings.
 
 ![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
+
+## Contributors
+- [shubhranshu7](https://github.com/shubhranshu7)
+- [Parth-Agarwal216](https://github.com/Parth-Agarwal216)
+---
