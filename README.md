@@ -10,7 +10,9 @@ A diffusion probabilistic model is a parameterized Markov chain trained using va
 
 This diffusion model uses a modified U-NET architecture which incorporates residual connections and multi headed self attention between the convolutional layers. Additionally, sinusoidal position embeddings are used to encode timestep t. This makes the neural network “know” at which specific time step (noise level) it is operating, for each image in a batch.
 
-![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
+<div align="center">
+  <img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/23acc50f-a21c-4ef0-a075-b327747fcbc9" alt="image" width="500" />
+</div>
 
 ## Dataset 
 
