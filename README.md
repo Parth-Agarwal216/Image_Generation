@@ -12,6 +12,14 @@ A modified U-Net architecture which comprises of multi-headed self attention, re
 
 ![U-NET](https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/f6d09ec8-b2f6-430e-9dce-faa48f63c963)
 
+### Installation and Setup
+
+1. **Install Dependencies:**
+   Install the required libraries using:
+```python
+pip install -r requirements.txt
+```
+
 ## Contributors
 - [shubhranshu7](https://github.com/shubhranshu7)
 - [Parth-Agarwal216](https://github.com/Parth-Agarwal216)
