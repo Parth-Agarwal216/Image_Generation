@@ -23,7 +23,7 @@ def generate(
             model_output = diffusion_model(model_input, time_embedding)
             image = sampler.step(timestep, image, model_output)
         image = image.permute(0, 2, 3, 1)
-        image = image.detach().cpu().clip(0, 1)
+        image = image.detach().cpu()
         return image[0]
 
 def gen_img():
@@ -35,9 +35,11 @@ def gen_img():
     for _ in range(12):
         image = generate(diffusion_model)
         image = image.squeeze()
-        image = image.numpy() 
+        image = image.numpy()
+        image = image.astype(np.float32)
+        image = (image - image.min()) / (image.max() - image.min())
         image = (image * 255).astype(np.uint8)
-        image = Image.fromarray(image)
+        image = Image.fromarray(image, mode='L')
         images.append(image)
 
     return images
