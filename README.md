@@ -29,6 +29,9 @@ Some sample images from the dataset are shown :
   <img src="https://github.com/Parth-Agarwal216/Image_Generation/assets/118837763/abbac076-63bc-4bfc-a2df-a296370ccdfe" alt="image" width="500" />
 </div>
 
+## Model Weights
+  [Drive Link](https://drive.google.com/drive/folders/1iJa10tuRhodSajq4892Oi7zQp2aL5Zt3?usp=sharing)
+
 ### Installation and Setup
 
 1. **Install Dependencies:**
